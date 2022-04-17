@@ -1,0 +1,291 @@
+/**{
+     font-size: sans-serif;
+}*/
+.home-page{
+    height: 100vh;
+}
+.hero{
+    position: relative;
+    width: 100;
+    height: 100vh;
+    background: #191919; 
+}
+.nav-bar{
+    display: flex;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    background: #191919;
+}
+.img-container{
+    padding:15px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+span{
+    color: #f9004d;
+}
+nav{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 8px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: gainsboro;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:red;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+.imageweb{
+    width: 45%;
+    height: 600px;
+    position: absolute;
+    bottom: -200px;
+    left: 900px;
+}
+.shape{
+    width: 400px;
+    height: 50px;
+}
+.yordan{
+    width: 360px;
+    height: 800px;
+}
+.imageweb img{
+    height: 100%;
+    position: absolute;
+    right: 100%;
+    bottom: 0;
+    transform: translateX(80%);
+    transition: bottom 1s, right 1s;
+}
+.imageweb:hover .shape{
+    bottom:30px;
+}
+.imageweb:hover .yordan{
+    left: -159%;
+}
+h1{
+    color: gainsboro;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: gainsboro;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newslatter from{
+    width: 300px;
+    max-width: 100%;
+    position: absolute;
+}
+.newslatter from input:last-child{
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 6px 13px;
+    border-radius: 15px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: -3px;
+    right: 10px;
+}
+.img-applyer{
+    padding: 30px;
+}
+.photo{
+    width: 500px;
+    height: 600px;
+}
+.about{
+    width: 100;
+    height: 100vh;
+    padding: 100px 0px;
+    background-color: grey;
+    box-shadow: 7px 7px 30px;
+}
+.service-page{
+    height: 100vh;
+}
+.contact-page{
+    height: 100vh;
+    text-align: center;
+}
+
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-text h2{
+    color: gainsboro;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: gainsboro;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.service{
+    background: brown;
+    width: 100%;
+    padding: 100px 0px;
+    box-shadow: 7px 7px 30px;
+}
+.title h2{
+    color: gainsboro;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    box-shadow: 7px 7px 30px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 30px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 7px 7px 30px;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+    box-shadow: 7px 7px 30px;
+}
+h5{
+    color: gainsboro;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.contact{
+    width: 100%;
+    height: 290px;
+    background: rgba(2, 26, 2, 0.6);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact p{
+    color: gainsboro;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact .button-two{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;   
+}
+.contact .button-two:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.contact-page .icon{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.contact-page .icon div{
+    padding: 10%;
+}
+
